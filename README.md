@@ -1,6 +1,8 @@
 WarpedCAVE
 =====================
 
+http://paulbourke.net/dome/mirrorbox/
+
 An experiment extending Paul Bourke's mirrored sphere projection technique to 3D in Unity, for the purpose of building low-cost single-projector, single computer immersive CAVEs on arbitrary surfaces.  After some initial pre-computation, this technique allows one to render perspective corrected 3D imagery on arbitrary surfaces using a very cheap vertex shader and an on-axis rendering camera (enabling a variety of graphical effects that traditional CAVEs are not normally capable of).
 
 Includes a guided calibration routine for assembling the projection geometry (via probing the bottom tip of a Vive controller to various surfaces to ascertain their shape).   The automated routine calculates the projector's projection matrix, three flat walls, and the position + radius of the mirrored sphere reflector (though each step can be easily extended to arbitrary geometry).
