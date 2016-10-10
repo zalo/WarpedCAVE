@@ -9,9 +9,13 @@ Includes a guided calibration routine for assembling the projection geometry (vi
 
 
 How the pre-distortion works:
+
 1) For each vertex in the distortion plane, trace a ray from the projector to the projection surface (simulating the reflection off of the mirrored sphere in between).
+
 2) Record the hit position, and bake it into the vertex color of the distortion plane mesh.
+
 3) In the distortion mesh, reproject that world position back into the viewport space of the eye's render texture camera.
+
 4) Set the UV of that vertex in the distortion plane to be equal to 3)'s viewport space coordinate.
 
 
