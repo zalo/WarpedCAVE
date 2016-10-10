@@ -17,11 +17,9 @@ This example scene is set up such that the "eye camera" is looking through the r
 
 Here are Before/After comparison screenshots:
 
-![Before](/Images/Before.png?raw=true "Before")
+<img src="https://github.com/zalo/WarpedCAVE/raw/master/Images/Before.png" width="300"> <img src="https://github.com/zalo/WarpedCAVE/raw/master/Images/After.png" width="300">
 
-![After](/Images/After.png?raw=true "After")
-
-and here is a short demonstration of the 3D aspect of the correction effect, as filmed through a Vive controller's ring:
+Video (shows 3D effect):
 
 [![3D Warped CAVE Demo](http://img.youtube.com/vi/IcZejDUULB8/0.jpg)](http://www.youtube.com/watch?v=IcZejDUULB8)
 
